@@ -4,9 +4,9 @@ module.exports = {
 		'@vuepress/plugin-medium-zoom': {
 			selector: 'img'
 		},
-		'@vuepress/plugin-blog': {
-			postsDir: 'posts'
-		},
+		// '@vuepress/plugin-blog': {
+		// 	postsDir: 'posts'
+		// },
 		'@vuepress/last-updated': {
 			transformer: (timestamp, lang) => {
 				const dayjs = require('dayjs');
